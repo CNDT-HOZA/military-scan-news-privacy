@@ -58,8 +58,8 @@ không có mã theo dõi hay công cụ phân tích nào được nhúng.</p>
     <td><code>chrome.storage.local</code> trên máy bạn</td>
   </tr>
   <tr>
-    <td>Báo cáo Research CMT gần nhất</td>
-    <td>Hiển thị lại kết quả phân tích khán giả khi bạn mở lại bảng bên</td>
+    <td>Danh sách kênh theo dõi và báo cáo gần nhất</td>
+    <td>Hiển thị lại kết quả phân tích khán giả và kết quả quét kênh khi bạn mở lại bảng bên</td>
     <td><code>chrome.storage.local</code> trên máy bạn</td>
   </tr>
   <tr>
@@ -82,10 +82,10 @@ không có mã theo dõi hay công cụ phân tích nào được nhúng.</p>
       Tiện ích gửi yêu cầu tải trang thông thường để đọc tiêu đề bài viết công khai. Không gửi kèm dữ liệu cá nhân nào,
       không gửi cookie đăng nhập của bạn.</li>
   <li><strong>YouTube Data API</strong> (<code>www.googleapis.com/youtube/v3</code>) — khi bạn dùng tính năng
-      Research CMT, Tiện ích gửi mã video bạn dán vào cùng API Key (của bạn, hoặc khóa sẵn có của
-      Tiện ích nếu bạn không nhập) để đọc thông tin video và các
-      <strong>bình luận công khai</strong> của video đó. Tiện ích không đăng nhập vào tài khoản YouTube của bạn,
-      không đọc video riêng tư, không đăng hay xóa bình luận nào.</li>
+      CMT hoặc Kênh, Tiện ích gửi mã video / mã kênh bạn chỉ định cùng khóa API của Tiện ích để đọc
+      thông tin video, <strong>bình luận công khai</strong> của video đó, và danh sách video đã đăng cùng
+      số liệu công khai của kênh bạn theo dõi. Tiện ích không đăng nhập vào tài khoản YouTube của bạn,
+      không đọc video riêng tư, không đăng hay xóa nội dung nào.</li>
   <li><strong>Google Gemini</strong> (<code>generativelanguage.googleapis.com</code>) — nhận API Key của bạn cùng
       dữ liệu cần phân tích: danh sách tiêu đề tin tức công khai, hoặc nội dung bình luận công khai đã thu thập
       (kèm tên hiển thị công khai của người bình luận) khi bạn dùng Research CMT. Việc Google xử lý dữ liệu này tuân theo
