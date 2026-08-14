@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chính sách quyền riêng tư — Military Scan News</title>
+<title>Chính sách quyền riêng tư — Topic Research</title>
 <style>
   body { max-width: 760px; margin: 0 auto; padding: 40px 20px; font-family: system-ui, "Segoe UI", sans-serif;
          line-height: 1.65; color: #1f2328; }
@@ -26,10 +26,10 @@
 </head>
 <body>
 
-<h1>Chính sách quyền riêng tư — Military Scan News</h1>
+<h1>Chính sách quyền riêng tư — Topic Research</h1>
 <p class="updated">Cập nhật lần cuối: 12/08/2026</p>
 
-<p>Tiện ích <strong>Military Scan News</strong> (sau đây gọi là “Tiện ích”) quét tin tức quân sự công khai, đọc bình
+<p>Tiện ích <strong>Topic Research</strong> (sau đây gọi là “Tiện ích”) quét tin tức quân sự công khai, đọc bình
 luận công khai của video YouTube do người dùng chỉ định, dùng Google Gemini phân tích nội dung và gửi báo cáo tới
 nhóm Lark do người dùng cấu hình. Tài liệu này mô tả chính xác Tiện ích xử lý dữ liệu gì và gửi đi đâu.</p>
 
@@ -58,7 +58,7 @@ không có mã theo dõi hay công cụ phân tích nào được nhúng.</p>
     <td><code>chrome.storage.local</code> trên máy bạn</td>
   </tr>
   <tr>
-    <td>Báo cáo Topic Research gần nhất</td>
+    <td>Báo cáo Research CMT gần nhất</td>
     <td>Hiển thị lại kết quả phân tích khán giả khi bạn mở lại bảng bên</td>
     <td><code>chrome.storage.local</code> trên máy bạn</td>
   </tr>
@@ -82,13 +82,13 @@ không có mã theo dõi hay công cụ phân tích nào được nhúng.</p>
       Tiện ích gửi yêu cầu tải trang thông thường để đọc tiêu đề bài viết công khai. Không gửi kèm dữ liệu cá nhân nào,
       không gửi cookie đăng nhập của bạn.</li>
   <li><strong>YouTube Data API</strong> (<code>www.googleapis.com/youtube/v3</code>) — khi bạn dùng tính năng
-      Topic Research, Tiện ích gửi mã video bạn dán vào cùng API Key (của bạn, hoặc khóa sẵn có của
+      Research CMT, Tiện ích gửi mã video bạn dán vào cùng API Key (của bạn, hoặc khóa sẵn có của
       Tiện ích nếu bạn không nhập) để đọc thông tin video và các
       <strong>bình luận công khai</strong> của video đó. Tiện ích không đăng nhập vào tài khoản YouTube của bạn,
       không đọc video riêng tư, không đăng hay xóa bình luận nào.</li>
   <li><strong>Google Gemini</strong> (<code>generativelanguage.googleapis.com</code>) — nhận API Key của bạn cùng
       dữ liệu cần phân tích: danh sách tiêu đề tin tức công khai, hoặc nội dung bình luận công khai đã thu thập
-      (kèm tên hiển thị công khai của người bình luận) khi bạn dùng Topic Research. Việc Google xử lý dữ liệu này tuân theo
+      (kèm tên hiển thị công khai của người bình luận) khi bạn dùng Research CMT. Việc Google xử lý dữ liệu này tuân theo
       <a href="https://policies.google.com/privacy">Chính sách quyền riêng tư của Google</a> và điều khoản của Gemini API.</li>
   <li><strong>Lark Webhook của bạn</strong> (<code>open.larksuite.com</code> / <code>open.feishu.cn</code>) —
       nhận nội dung báo cáo do Tiện ích tạo ra. Chỉ gửi khi bạn đã tự nhập Webhook URL.</li>
@@ -113,7 +113,7 @@ Bạn có thể thu hồi các quyền tùy chọn này bất cứ lúc nào tro
 <h2>6. Quyền kiểm soát của bạn</h2>
 <ul>
   <li>Xóa nhật ký bất cứ lúc nào bằng nút “🗑️ Xóa” trong tab Chính.</li>
-  <li>Chỉ dùng Topic Research khi bạn muốn — Tiện ích chỉ đọc bình luận của đúng video bạn tự dán link vào.</li>
+  <li>Chỉ dùng Research CMT khi bạn muốn — Tiện ích chỉ đọc bình luận của đúng video bạn tự dán link vào.</li>
   <li>Xóa API Key và Webhook bằng cách xóa trắng ô tương ứng trong tab Cài đặt.</li>
   <li>Gỡ Tiện ích để xóa sạch toàn bộ dữ liệu đã lưu.</li>
 </ul>
