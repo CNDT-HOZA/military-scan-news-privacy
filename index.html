@@ -48,7 +48,8 @@ không có mã theo dõi hay công cụ phân tích nào được nhúng.</p>
   </tr>
   <tr>
     <td>YouTube Data API Key (tùy chọn)</td>
-    <td>Xác thực khi đọc bình luận công khai của video YouTube. Bỏ trống thì dùng lại Gemini API Key.</td>
+    <td>Xác thực khi đọc bình luận công khai của video YouTube. Bỏ trống thì Tiện ích dùng khóa
+        do nhà phát triển cung cấp sẵn — khi đó bạn không phải khai báo gì thêm.</td>
     <td><code>chrome.storage.local</code> trên máy bạn</td>
   </tr>
   <tr>
@@ -81,7 +82,8 @@ không có mã theo dõi hay công cụ phân tích nào được nhúng.</p>
       Tiện ích gửi yêu cầu tải trang thông thường để đọc tiêu đề bài viết công khai. Không gửi kèm dữ liệu cá nhân nào,
       không gửi cookie đăng nhập của bạn.</li>
   <li><strong>YouTube Data API</strong> (<code>www.googleapis.com/youtube/v3</code>) — khi bạn dùng tính năng
-      Research CMT, Tiện ích gửi mã video bạn dán vào cùng API Key của bạn để đọc thông tin video và các
+      Research CMT, Tiện ích gửi mã video bạn dán vào cùng API Key (của bạn, hoặc khóa sẵn có của
+      Tiện ích nếu bạn không nhập) để đọc thông tin video và các
       <strong>bình luận công khai</strong> của video đó. Tiện ích không đăng nhập vào tài khoản YouTube của bạn,
       không đọc video riêng tư, không đăng hay xóa bình luận nào.</li>
   <li><strong>Google Gemini</strong> (<code>generativelanguage.googleapis.com</code>) — nhận API Key của bạn cùng
